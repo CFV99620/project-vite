@@ -3,7 +3,7 @@ import React from 'react';
 
 const NavigationBar = () => {//componente funcional NavigationBar con tailwindcss
 
-    const categories = ['Home', 'Users','About', 'Services', 'Contact'];
+    const categories = ['Home', 'Posts','About', 'Services', 'Contact'];
     
     return (
         <nav className="fixed top-0 left-0 right-0 w-full bg-white shadow-lg border-b border-gray-200 z-50 rounded-b-lg">
