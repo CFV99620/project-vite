@@ -9,6 +9,7 @@ import PersonalForm from './components/PersonalForm/PersonalForm.jsx';
 import NavigationBar from './components/NavigationBar/NavigationBar.jsx';
 import UserList from './components/UserList/UserList.jsx';
 import Counter from './components/Counter/Counter.jsx';
+import CounterCustomHook from './components/Counter/ConterCustomHook.jsx';
 
 export const ThemeContext = createContext('light');// Crea un contexto con el valor predeterminado 'light', el contexto es como una caja que puede contener valores que pueden ser accedidos por cualquier componente hijo sin necesidad de pasar props manualmente.
 //el export es para poder importarlo en otros archivos.
@@ -33,6 +34,7 @@ createRoot(document.getElementById('root')).render(
       <NavigationBar />
       <PersonalForm />
       <Counter />
+      <CounterCustomHook />
       <UserList />
     </ThemeProvider>
   </StrictMode>,
